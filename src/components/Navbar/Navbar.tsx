@@ -25,7 +25,7 @@ export function Navbar() {
               {/* Action Buttons & Icons */}
               <div className="flex items-center gap-4 pl-4 border-l border-zinc-700">
                 <a 
-                  href="/resume"
+                  href="https://drive.google.com/file/d/1s9hYGu2h1LIK1h8Z_bc7kdkcyHXbbcD5/view?usp=sharing"
                   className="nav-button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export function Navbar() {
                   Resume
                 </a>
                 <a 
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/snehithreddykathi/"
                   className="nav-button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -42,14 +42,14 @@ export function Navbar() {
                 </a>
                 <button className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
                   <img 
-                    src="/src/assets/images/add-icon.png" 
+                    src="/tableau_icon.png" 
                     alt="Add"
                     className="w-full h-full object-cover"
                   />
                 </button>
                 <button className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
                   <img 
-                    src="/src/assets/images/camera-icon.png" 
+                    src="/github_icon.png" 
                     alt="Camera"
                     className="w-full h-full object-cover"
                   />
@@ -61,7 +61,7 @@ export function Navbar() {
           {/* Mobile Navigation Controls */}
           <div className="flex items-center gap-2 sm:gap-3 ml-auto lg:hidden">
             <a 
-              href="/resume"
+              href="https://drive.google.com/file/d/1s9hYGu2h1LIK1h8Z_bc7kdkcyHXbbcD5/view?usp=sharing"
               className="nav-button"
               target="_blank"
               rel="noopener noreferrer"
@@ -69,7 +69,7 @@ export function Navbar() {
               Resume
             </a>
             <a 
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/snehithreddykathi/"
               className="nav-button"
               target="_blank"
               rel="noopener noreferrer"
@@ -78,14 +78,14 @@ export function Navbar() {
             </a>
             <button className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
               <img 
-                src="/src/assets/images/add-icon.png" 
+                src="/tableau_icon.png" 
                 alt="Add"
                 className="w-full h-full object-cover"
               />
             </button>
             <button className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
               <img 
-                src="/src/assets/images/camera-icon.png" 
+                src="/github_icon.png" 
                 alt="Camera"
                 className="w-full h-full object-cover"
               />
