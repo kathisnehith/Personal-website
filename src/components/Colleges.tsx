@@ -12,7 +12,7 @@ export function Colleges() {
             >
               <div className="aspect-[16/9]">
                 <img
-                  src={`https://images.unsplash.com/photo-151769471220${index}-14dd9538aa97?w=800&h=500&auto=format&fit=crop`}
+                  src={`/edu_${index}.png`}
                   alt={`College ${index}`}
                   className="w-full h-full object-cover"
                   sizes="(max-width: 640px) 100vw,
