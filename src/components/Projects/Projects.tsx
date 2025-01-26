@@ -28,6 +28,11 @@ const projects = [
     image: '/austin_p.png',
     link: 'https://public.tableau.com/app/profile/snehith.reddy.kathi/viz/APDDashboard/Dashboard1'
   },
+  { 
+    id: 6, 
+    image: '/linkedinscrape_p.png',
+    link: 'https://public.tableau.com/app/profile/snehith.reddy.kathi/viz/APDDashboard/Dashboard1'
+  },
 ];
 
 export function Projects() {
