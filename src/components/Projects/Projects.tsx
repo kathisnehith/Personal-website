@@ -10,22 +10,22 @@ const projects = [
   },
   { 
     id: 2, 
-    image: '/medicare_p.png',
+    image: '/medicare_p.jpg',
     link: 'https://github.com/kathisnehith/Medicare_IP_hospital-Analysis-Viz'
   },
   { 
     id: 3, 
-    image: '/nyc_p.png',
+    image: '/nyc_p.jpg',
     link: 'https://github.com/kathisnehith/NYC311-requests-ETL-pipeline'
   },
   { 
     id: 4, 
-    image: '/visionclaims_p.png',
+    image: '/visionclaims_p.jpg',
     link: 'https://github.com/kathisnehith/Medicare-claims-vision-Analysis'
   },
   { 
     id: 5, 
-    image: '/austin_p.png',
+    image: '/austin_p.jpg',
     link: 'https://public.tableau.com/app/profile/snehith.reddy.kathi/viz/APDDashboard/Dashboard1'
   },
   { 
