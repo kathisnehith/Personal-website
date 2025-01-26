@@ -5,28 +5,28 @@ import { ProjectCard } from './ProjectCard';
 const projects = [
   { 
     id: 1, 
-    image: '/src/assets/images/sample_v2.jpg',
-    link: 'https://example.com/project1'
+    image: '/autism_p.png',
+    link: 'https://github.com/kathisnehith/Autism-Behavior-Recognition-ML'
   },
   { 
     id: 2, 
-    image: '/src/assets/images/sample_v2.jpg',
-    link: 'https://example.com/project2'
+    image: '/medicare_p.png',
+    link: 'https://github.com/kathisnehith/Medicare_IP_hospital-Analysis-Viz'
   },
   { 
     id: 3, 
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
-    link: 'https://example.com/project3'
+    image: '/nyc_p.png',
+    link: 'https://github.com/kathisnehith/NYC311-requests-ETL-pipeline'
   },
   { 
     id: 4, 
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3',
-    link: 'https://example.com/project4'
+    image: '/visionclaims_p.png',
+    link: 'https://github.com/kathisnehith/Medicare-claims-vision-Analysis'
   },
   { 
     id: 5, 
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97',
-    link: 'https://example.com/project5'
+    image: '/austin_p.png',
+    link: 'https://public.tableau.com/app/profile/snehith.reddy.kathi/viz/APDDashboard/Dashboard1'
   },
 ];
 
