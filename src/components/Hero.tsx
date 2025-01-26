@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
 const HERO_IMAGES = {
-  mobile: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97", // Replace with your mobile hero image
-  desktop: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3", // Replace with your desktop hero image
+  mobile: "/mobile_hero_image.png", // Replace with your mobile hero image
+  desktop: "/hero_image.png", // Replace with your desktop hero image
 };
 
 export function Hero() {
