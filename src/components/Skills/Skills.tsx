@@ -42,8 +42,8 @@ export function Skills() {
               className="w-full h-full object-cover absolute inset-0"
             />
             <img
-              src="/skills overview2.jpg"
-              alt="Skills Overview"
+              src=""
+              alt=""
               className="w-full h-full object-cover absolute inset-0"
               sizes="(max-width: 640px) 100vw, 
                      (max-width: 1024px) 90vw,
