@@ -16,7 +16,7 @@ export function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           <div className="rounded-2xl overflow-hidden h-[300px] lg:h-[500px]">
             <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+              src="/Contact_me_image.png"
               alt="Contact"
               className="w-full h-full object-cover"
             />
@@ -46,7 +46,7 @@ export function Contact() {
                   kathisnehithreddy@gmail.com
                 </span>
                 <a
-                  href="mailto:kathisnehithreddy@gmail.com"
+                  href="https://mail.google.com/mail/u/0/?fs=1&to=kathisnehithreddy@gmail.com&tf=cm"
                   className="px-6 lg:px-8 py-3 rounded-[32px] bg-[#000000] hover:bg-black/90 transition-colors whitespace-nowrap text-lg text-white"
                 >
                   Mail me!
@@ -59,26 +59,26 @@ export function Contact() {
             </h3>
             <div className="flex justify-center gap-6 lg:gap-8">
               <SocialIcon
-                icon="https://images.unsplash.com/photo-1611944212129-29977ae1398c"
+                icon="/linkedin_icon.png"
                 title="LinkedIn"
-                link="#"
+                link="https://www.linkedin.com/in/snehithreddykathi/"
                 rotation="-rotate-3"
               />
               <SocialIcon
-                icon="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb"
+                icon="/github_icon.png"
                 title="GitHub"
-                link="#"
+                link="https://github.com/kathisnehith"
                 rotation="rotate-2"
               />
               <SocialIcon
-                icon="https://images.unsplash.com/photo-1638141986236-19605f25e11e"
+                icon="/tableau_icon.png"
                 title="Tableau"
-                link="#"
+                link="https://public.tableau.com/app/profile/snehith.reddy.kathi/vizzes"
                 rotation="-rotate-2"
               />
               <SocialIcon
-                icon="https://images.unsplash.com/photo-1633409361618-c73427e4e206"
-                title="Sample"
+                icon="/substack_icon.png"
+                title="Substack"
                 link="#"
                 rotation="rotate-3"
               />
