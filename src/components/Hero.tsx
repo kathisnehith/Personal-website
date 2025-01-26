@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const HERO_IMAGES = {
   mobile: "/mobile_hero_image.png", // Replace with your mobile hero image
-  desktop: "/hero_image.svg", // Replace with your desktop hero image
+  desktop: "/hero_image.png", // Replace with your desktop hero image
 };
 
 export function Hero() {
