@@ -38,12 +38,7 @@ export function Skills() {
           <div className="relative aspect-[16/9] md:aspect-[18/5]">
             <img
               src="/skills overview2.png"
-              alt="Skills Overview Placeholder"
-              className="w-full h-full object-cover absolute inset-0"
-            />
-            <img
-              src=""
-              alt=""
+              alt="Skillsoverview"
               className="w-full h-full object-cover absolute inset-0"
               sizes="(max-width: 640px) 100vw, 
                      (max-width: 1024px) 90vw,
