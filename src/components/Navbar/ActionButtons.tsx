@@ -36,7 +36,7 @@ export function ActionButtons() {
         className="w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden hover:scale-110 transition-transform"
       >
         <img 
-          src="/github_future_logo.png" 
+          src="/git_future_icon.png" 
           alt="Camera" 
           className="w-full h-full object-cover"
         />
