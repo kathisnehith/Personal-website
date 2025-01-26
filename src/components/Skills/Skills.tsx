@@ -37,12 +37,12 @@ export function Skills() {
         <div className="w-full overflow-hidden rounded-lg sm:rounded-xl md:rounded-2xl mb-4 sm:mb-6 md:mb-8">
           <div className="relative aspect-[16/9] md:aspect-[18/5]">
             <img
-              src="src/assets/images/skills overview.png"
+              src="/skills overview2.png"
               alt="Skills Overview Placeholder"
               className="w-full h-full object-cover absolute inset-0"
             />
             <img
-              src="/src/assets/images/skills overview.jpg"
+              src="/skills overview2.jpg"
               alt="Skills Overview"
               className="w-full h-full object-cover absolute inset-0"
               sizes="(max-width: 640px) 100vw, 
