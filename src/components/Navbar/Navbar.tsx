@@ -49,7 +49,7 @@ export function Navbar() {
                 </button>
                 <button className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
                   <img 
-                    src="/github_icon.png" 
+                    src="/github_future_logo.png" 
                     alt="Camera"
                     className="w-full h-full object-cover"
                   />
@@ -85,7 +85,7 @@ export function Navbar() {
             </button>
             <button className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
               <img 
-                src="/github_icon.png" 
+                src="/github_future_logo.png" 
                 alt="Camera"
                 className="w-full h-full object-cover"
               />
