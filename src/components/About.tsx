@@ -6,12 +6,12 @@ export function About() {
         <div className="relative w-full rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden">
           <div className="relative aspect-[16/9] md:aspect-[18/5]">
             <img
-              src="src/assets/images/About Image.png"
+              src="/About Image.png"
               alt="About Placeholder"
               className="w-full h-full object-cover absolute inset-0"
             />
             <img
-              src="/src/assets/images/about.jpg"
+              src="/About Image.png"
               alt="About"
               className="w-full h-full object-cover absolute inset-0"
               sizes="(max-width: 640px) 100vw, 
