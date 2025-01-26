@@ -65,7 +65,7 @@ export function Contact() {
                 rotation="-rotate-3"
               />
               <SocialIcon
-                icon="/github_icon.png"
+                icon="/git_future_icon.png"
                 title="GitHub"
                 link="https://github.com/kathisnehith"
                 rotation="rotate-2"
