@@ -39,7 +39,7 @@ export function Skills() {
             {/* Mobile image */}
             <source
               media="(max-width: 768px)"
-              srcSet="/src/assets/images/skills-mobile.jpg"
+              srcSet="/mobile_skillsoverview.png"
             />
             {/* Desktop image */}
             <img
