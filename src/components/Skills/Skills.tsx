@@ -35,16 +35,22 @@ export function Skills() {
         <h2 className="section-title">My Analytical Skills</h2>
         
         <div className="w-full overflow-hidden rounded-lg sm:rounded-xl md:rounded-2xl mb-4 sm:mb-6 md:mb-8">
-          <div className="relative aspect-[16/9] md:aspect-[18/5]">
+          <picture>
+            {/* Mobile image */}
+            <source
+              media="(max-width: 768px)"
+              srcSet="/src/assets/images/skills-mobile.jpg"
+            />
+            {/* Desktop image */}
             <img
               src="/skills overview2.png"
-              alt="Skillsoverview"
-              className="w-full h-full object-cover absolute inset-0"
+              alt="Skills Overview"
+              className="w-full h-full object-cover"
               sizes="(max-width: 640px) 100vw, 
                      (max-width: 1024px) 90vw,
                      1800px"
             />
-          </div>
+          </picture>
         </div>
 
         <div className="relative">
