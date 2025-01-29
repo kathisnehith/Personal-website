@@ -10,6 +10,7 @@ export function About() {
             <source
               media="(max-width: 768px)"
               srcSet="/mobile_aboutme.png"
+              className="w-full aspect-[4/3] object-cover"
             />
             {/* Desktop image */}
             <img
