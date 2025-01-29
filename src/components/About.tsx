@@ -4,15 +4,13 @@ export function About() {
       <div className="responsive-container">
         <h2 className="section-title">About me</h2>
         <div className="relative w-full rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden">
-          <div className="relative aspect-[16/9] md:aspect-[18/5]">
-            <picture>
-            {/* Mobile image */}
+          <picture>
+            {/* Mobile image - Using a 4:3 aspect ratio for consistency with Skills section */}
             <source
               media="(max-width: 768px)"
               srcSet="/mobile_aboutme.png"
-              className="w-full aspect-[4/3] object-cover"
             />
-            {/* Desktop image */}
+            {/* Desktop image - Maintaining original aspect ratio */}
             <img
               src="/About Image.png"
               alt="About"
@@ -22,6 +20,9 @@ export function About() {
                      1800px"
             />
           </picture>
+          {/* Container to enforce aspect ratio for mobile */}
+          <div className="md:hidden absolute inset-0">
+            <div className="w-full h-full" style={{ aspectRatio: '4/3' }}></div>
           </div>
         </div>
       </div>
