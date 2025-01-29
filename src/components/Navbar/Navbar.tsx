@@ -40,20 +40,30 @@ export function Navbar() {
                 >
                   LinkedIn
                 </a>
-                <button className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
+                <a 
+                  href="https://public.tableau.com/app/profile/snehith.reddy.kathi"
+                  className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img 
                     src="/tableau_icon.png" 
-                    alt="Add"
+                    alt="Tableau Profile"
                     className="w-full h-full object-cover"
                   />
-                </button>
-                <button className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
+                </a>
+                <a 
+                  href="https://github.com/snehithkathi"
+                  className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img 
                     src="/githublogo.png" 
-                    alt="Camera"
+                    alt="GitHub Profile"
                     className="w-full h-full object-cover"
                   />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -76,20 +86,30 @@ export function Navbar() {
             >
               LinkedIn
             </a>
-            <button className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
+            <a 
+              href="https://public.tableau.com/app/profile/snehith.reddy.kathi"
+              className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img 
                 src="/tableau_icon.png" 
-                alt="Add"
+                alt="Tableau Profile"
                 className="w-full h-full object-cover"
               />
-            </button>
-            <button className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity">
+            </a>
+            <a 
+              href="https://github.com/snehithkathi"
+              className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img 
                 src="/githublogo.png" 
-                alt="Camera"
+                alt="GitHub Profile"
                 className="w-full h-full object-cover"
               />
-            </button>
+            </a>
             <button 
               className="p-2 text-white hover:bg-white/10 rounded-full transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
