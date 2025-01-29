@@ -5,19 +5,22 @@ export function About() {
         <h2 className="section-title">About me</h2>
         <div className="relative w-full rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden">
           <div className="relative aspect-[16/9] md:aspect-[18/5]">
-            <img
-              src="/About Image.png"
-              alt="About Placeholder"
-              className="w-full h-full object-cover absolute inset-0"
+            <picture>
+            {/* Mobile image */}
+            <source
+              media="(max-width: 768px)"
+              srcSet="/mobile_aboutme.png"
             />
+            {/* Desktop image */}
             <img
               src="/About Image.png"
               alt="About"
-              className="w-full h-full object-cover absolute inset-0"
+              className="w-full h-full object-cover"
               sizes="(max-width: 640px) 100vw, 
                      (max-width: 1024px) 90vw,
                      1800px"
             />
+          </picture>
           </div>
         </div>
       </div>
