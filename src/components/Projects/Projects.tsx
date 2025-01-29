@@ -26,12 +26,12 @@ const projects = [
   { 
     id: 5, 
     image: '/austin_p.jpg',
-    link: 'https://public.tableau.com/app/profile/snehith.reddy.kathi/viz/APDDashboard/Dashboard1'
+    link: 'https://github.com/kathisnehith/State-of-Austin-crime-Analysis'
   },
   { 
     id: 6, 
     image: '/linkedinscrape_p.png',
-    link: 'https://public.tableau.com/app/profile/snehith.reddy.kathi/viz/APDDashboard/Dashboard1'
+    link: 'https://github.com/kathisnehith'
   },
 ];
 
