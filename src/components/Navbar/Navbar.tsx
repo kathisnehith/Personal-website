@@ -53,7 +53,7 @@ export function Navbar() {
                   />
                 </a>
                 <a 
-                  href="https://github.com/snehithkathi"
+                  href="https://github.com/kathisnehith"
                   className="w-10 h-10 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -99,7 +99,7 @@ export function Navbar() {
               />
             </a>
             <a 
-              href="https://github.com/snehithkathi"
+              href="https://github.com/kathisnehith"
               className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
               target="_blank"
               rel="noopener noreferrer"
